@@ -9,7 +9,7 @@ export default function parallaxie(selector) {
     elementBg.style.backgroundPosition = `center ${position}px`;
 
     window.addEventListener('scroll', () => {
-      let element = document.querySelector(selector);
+      let element = document?.querySelector(selector);
 
       position = element?.getBoundingClientRect().top * 0.75;
       element.style.backgroundPosition = `center ${position}px`;

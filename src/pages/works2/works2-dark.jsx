@@ -11,37 +11,48 @@ const Works2Dark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
   const [pageLoaded, setPageLoaded] = React.useState(false);
+
+  React.useLayoutEffect(() => {
+    const adjustMargin = () => {
+      if (fixedHeader.current && MainContent.current) {
+        const slidHeight = fixedHeader.current.offsetHeight;
+        MainContent.current.style.marginTop = slidHeight + "px";
+      }
+    };
+
+    adjustMargin();
+
+    const timeoutId = setTimeout(adjustMargin, 300);
+    return () => clearTimeout(timeoutId);
+  }, []);
+
   React.useEffect(() => {
     setPageLoaded(true);
     if (pageLoaded) {
       addParlx();
     }
   }, [pageLoaded]);
+
   React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
+    const navbar = navbarRef.current;
+
+    const handleScroll = () => {
       if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
+        navbar?.classList.add("nav-scroll");
       } else {
-        navbar.classList.remove("nav-scroll");
+        navbar?.classList.remove("nav-scroll");
       }
-    });
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        if (fixedHeader.current) {
-          var slidHeight = fixedHeader.current.offsetHeight;
-          if (MainContent.current) {
-            MainContent.current.style.marginTop = slidHeight + "px";
-          }
-        }
-      }, 0);
-    });
-  }, [fixedHeader, MainContent, navbarRef]);
+    };
+
+    // Set initial scroll state
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <DarkTheme>

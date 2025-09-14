@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import mousecursor from "../../common/mouseEffect";
 
 const Cursor = () => {
-  React.useEffect(() => {
-    mousecursor();
+  useEffect(() => {
+    const cleanup = mousecursor();
+    return cleanup;
   }, []);
   return (
     <>
