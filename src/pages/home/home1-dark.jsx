@@ -12,6 +12,7 @@ import SkillsCircle from "../../components/Skills-circle";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import Works1Slider from "../../components/Works1-slider";
 import DarkTheme from "../../layouts/Dark";
+import IntroTxt from "../../components/Intro-txt";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -46,7 +47,8 @@ const Homepage1 = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <IntroWithSlider1 sliderRef={fixedSlider} />
+      <IntroTxt subBG />
+      {/*<IntroWithSlider1 sliderRef={fixedSlider} />*/}
       <div ref={MainContent} className="main-content">
         <AboutUs1 />
         <Services1 />

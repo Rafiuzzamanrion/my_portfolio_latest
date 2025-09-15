@@ -179,11 +179,15 @@ a, span {
     box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2); }
 
 .sub-bg {
-  background: #11141b; }
+    background: #11141b;
+}
 
 .bg-img {
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+
+}
+
 
 .bg-center {
   background-position: center center; }
