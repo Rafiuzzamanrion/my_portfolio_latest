@@ -15,15 +15,16 @@ const IntroTxt = ({subBG}) => {
               <h1>Rafiuzzaman Rion<span className={'main-color fw-800'}>.</span></h1>
               <h4>Full Stack Web Developer</h4>
               <div className="social-icon">
-                <a href="#0" className="icon">
+                <a href="https://www.facebook.com/rafiuzzaman5683/"  target={'_blank'} className="icon" rel="noreferrer">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
+                <a href="https://www.linkedin.com/in/rafiuzzaman-rion-ba3575291/" target={'_blank'} className="icon" rel="noreferrer">
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
+                <a href="https://www.instagram.com/rafiuzzaman_rion/" target={'_blank'} className="icon" rel="noreferrer">
+                  <i className="fab fa-instagram"></i>
                 </a>
+                
                 <a href="#0" className="icon">
                   <i className="fab fa-behance"></i>
                 </a>
