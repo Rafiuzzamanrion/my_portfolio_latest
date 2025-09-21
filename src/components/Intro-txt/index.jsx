@@ -4,12 +4,12 @@ const IntroTxt = ({subBG}) => {
   return (
     <header
       className={`freelancer ${subBG ? "sub-bg" : ""} valign bg-img parallaxie`}
-      style={{backgroundImage: "url(/img/slid/imageM.jpg)"}}
+      // style={{backgroundImage: "url(/img/slid/imageM.jpg)"}}
       data-overlay-dark="4"
     >
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
+        <div style={{gap:'20px'}} className="row justify-content-center full-height align-items-center">
+          <div className="col-lg-5">
             <div className="cont">
               <h6>Hello, I&apos;m</h6>
               <h1>Rafiuzzaman Rion<span className={'main-color fw-800'}>.</span></h1>
@@ -31,7 +31,13 @@ const IntroTxt = ({subBG}) => {
               </div>
             </div>
           </div>
+          <div
+            // style={{backgroundImage: "url(/img/slid/imageM.jpg)"}}
+            className={'col-lg-5 ml-auto'}>
+            <img style={{borderTopLeftRadius: '200px', borderBottomRightRadius: '200px'}} className={'w-100 h-100'} src="/img/slid/imageM.jpg" alt=""/>
+          </div>
         </div>
+
       </div>
     </header>
   );

@@ -721,6 +721,9 @@ a, span {
 
 .no-padding {
   padding: 0 !important; }
+.gap{
+    gap: 15px;
+}
 
 
 
