@@ -3,9 +3,9 @@
   "image1": "/img/intro/1.jpg",
   "image2": "/img/intro/3.jpg",
   "image3": "/img/intro/2.jpg",
-  "smallTitle": "About Us",
-  "title": { "first": "We are more than just", "second": "a digital agency." },
-  "content": "We are AVO. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp",
+  "smallTitle": "About Me",
+  "title": { "first": "I am more than just", "second": "a developer." },
+  "content": " I create innovative web applications, stunning user interfaces, and cutting-edge digital solutions. With expertise in full-stack development, I transform ideas into reality through clean code and exceptional user experiences. My passion lies in building responsive websites, dynamic applications, and scalable software that makes a difference. From concept to deployment, I deliver solutions that not only meet requirements but exceed expectations. Every project is an opportunity to push boundaries and create something remarkable.",
   "features": [
     {
       "id": 1,
