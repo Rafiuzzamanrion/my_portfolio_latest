@@ -2760,8 +2760,11 @@ header.simpl {
     background: #11141b;
     border-radius: 5px;
     position: relative; }
-    .about .ftbox ul li.space {
-      margin: 0 10px; }
+    .about .ftbox ul {
+     display: flex;
+    justify-content: center;
+    gap: 10px}
+
     .about .ftbox ul li .icon {
       color: #75dab4;
       font-size: 30px;
@@ -5203,6 +5206,8 @@ header.simpl {
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 480px) {
+    .freelancer .cont h1 {
+     font-size: 2.7rem; }
   .hamenu .cont-info {
     display: none; }
   .hamenu .menu-links .main-menu > li {
@@ -5268,7 +5273,34 @@ header.simpl {
       display: inline-block;
       color: #fff;
       -webkit-text-stroke: 0px #fff; }
+    .about .ftbox ul li {
+        width: 6.5rem;
+         }
+    .about .ftbox ul li h6 {
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px; }
+    .about .ftbox ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px}
+
+
+
+
      }
+@media screen and (max-width: 350px) {
+    .about .ftbox ul li {
+        width:5rem;
+    }
+    .about .ftbox ul li h6 {
+        font-size: 9px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+}
+
 
 /* ====================== [ End Responsive ] ====================== */
 
