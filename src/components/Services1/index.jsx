@@ -21,7 +21,7 @@ const Services1 = () => {
           <div
             className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
             data-wow-delay=".3s"
-            style={{ backgroundImage: "url(/img/slid/img-4.png)", backgroundPosition:'center' }}
+            style={{ backgroundImage: "url(/img/slid/img-5.png)", backgroundPosition:'center' }}
           >
             <h4 className="custom-font">
               Best Of <br /> My Features
