@@ -23,6 +23,7 @@ const BlogDark = () => {
       }
     });
   }, [navbarRef]);
+  
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
