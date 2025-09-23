@@ -24,11 +24,11 @@ const Services1 = () => {
             style={{ backgroundImage: "url(/img/1.jpg)" }}
           >
             <h4 className="custom-font">
-              Best Of <br /> Our Features
+              Best Of <br /> My Features
             </h4>
             <Link href="/about/about-dark">
               <a className="btn-curve btn-bord btn-lit mt-40">
-                <span>See All Services</span>
+                <span>See All Projects</span>
               </a>
             </Link>
           </div>
@@ -37,10 +37,9 @@ const Services1 = () => {
             data-wow-delay=".5s"
           >
             <span className="icon pe-7s-paint-bucket"></span>
-            <h6>Graphic Design</h6>
+            <h6>Full Stack Web Development</h6>
             <p>
-              Tempore corrupti temporibus fuga earum asperiores fugit
-              laudantium.
+              Complete web applications using modern frameworks and technologies.
             </p>
           </div>
           <div
@@ -49,9 +48,9 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-phone"></span>
             <h6>
-              Web &amp; <br /> Mobile Design
+              Frontend Development
             </h6>
-            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+            <p>Responsive, interactive user interfaces with Next.js, React, HTML5, CSS3, JavaScript and TypeScript.</p>
           </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
@@ -59,9 +58,9 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-display1"></span>
             <h6>
-              Social <br /> media Marketing
+              Backend Development
             </h6>
-            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+            <p>Robust server-side solutions, APIs, and database architecture.</p>
           </div>
         </div>
       </div>
