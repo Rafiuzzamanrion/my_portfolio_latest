@@ -21,7 +21,7 @@ const Services1 = () => {
           <div
             className="col-lg-3 col-md-6 item-box bg-img wow fadeInLeft"
             data-wow-delay=".3s"
-            style={{ backgroundImage: "url(/img/1.jpg)" }}
+            style={{ backgroundImage: "url(/img/slid/img-4.png)", backgroundPosition:'center' }}
           >
             <h4 className="custom-font">
               Best Of <br /> My Features
@@ -36,7 +36,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".5s"
           >
-            <span className="icon pe-7s-paint-bucket"></span>
+            <span className="icon pe-7s-config"></span>
             <h6>Full Stack Web Development</h6>
             <p>
               Complete web applications using modern frameworks and technologies.
@@ -46,7 +46,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".7s"
           >
-            <span className="icon pe-7s-phone"></span>
+            <span className="icon pe-7s-monitor"></span>
             <h6>
               Frontend Development
             </h6>
@@ -56,7 +56,7 @@ const Services1 = () => {
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".9s"
           >
-            <span className="icon pe-7s-display1"></span>
+            <span className="icon pe-7s-server"></span>
             <h6>
               Backend Development
             </h6>
