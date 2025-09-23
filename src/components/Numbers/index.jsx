@@ -18,10 +18,7 @@ const Numbers1 = () => {
                   <CountUp redraw={true} end={item.value} duration="3">
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
-                        <>
-                          <span className="count" ref={countUpRef} />{" "}
-                          {item.id == 3 ? "K" : ""}
-                        </>
+                        <><span className="count" ref={countUpRef} />{item.id == 3 ? "K" :"+"}</>
                       </VisibilitySensor>
                     )}
                   </CountUp>
