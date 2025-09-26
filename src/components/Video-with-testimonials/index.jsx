@@ -24,7 +24,7 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img section-padding pb-0"
-        style={{ backgroundImage: `url(/img/slid/1.jpg)` }}
+        style={{ backgroundImage: `url(/img/slid/img-2.jpg)` }}
         data-overlay-dark="8"
       >
         <div className="container">
