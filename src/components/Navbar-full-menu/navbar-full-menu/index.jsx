@@ -49,191 +49,44 @@ const NavbarFullMenu = ({ theme, lr }) => {
             <div className="col-lg-9 col-md-8">
               <div className="menu-links">
                 <ul className="main-menu">
+
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">01.</span>Home
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home1-dark">
-                              <a className="sub-link">
-                                <span className="nm">01.</span>Main Home
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home2-dark">
-                              <a className="sub-link">
-                                <span className="nm">02.</span>Creative Studio
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home3-dark">
-                              <a className="sub-link">
-                                <span className="nm">03.</span> Business Startup
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home4-dark">
-                              <a className="sub-link">
-                                <span className="nm">04.</span>One Page
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home5-dark">
-                              <a className="sub-link">
-                                <span className="nm">05.</span>Freelancer
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="o-hidden">
-                      <Link href="/about/about-dark">
+                      <Link href="/home/home1-dark">
                         <a className="link">
-                          <span className="nm">02.</span>About Us
+                          <span className="nm">01.</span>Home
                         </a>
                       </Link>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">03.</span>Portfolio
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works/works-dark">
-                              <a className="sub-link">
-                                <span className="nm">01.</span>Mouse Info
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works2/works2-dark">
-                              <a className="sub-link">
-                                <span className="nm">02.</span>Masonry 3 Columns
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works3/works3-dark">
-                              <a className="sub-link">
-                                <span className="nm">03.</span>Masonry 2 Columns
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Pinterest List
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
+                      <Link href="/about/about-dark">
+                        <a className="link">
+                          <span className="nm">02.</span>About
+                        </a>
+                      </Link>
                     </div>
                   </li>
 
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">04.</span>Showcases
-                        <i className="fas fa-angle-right"></i>
-                      </span>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase/showcase-dark">
-                              <a className="sub-link">
-                                <span className="nm">01.</span>Full Screen
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase2/showcase2-dark">
-                              <a className="sub-link">
-                                <span className="nm">02.</span>Creative Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase3/showcase3-dark">
-                              <a className="sub-link">
-                                <span className="nm">03.</span>Radius Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase4/showcase4-dark">
-                              <a className="sub-link">
-                                <span className="nm">04.</span>Columns Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
+                      <Link href="/works2/works2-dark">
+                        <a className="link">
+                          <span className="nm">03.</span>Showcases
+                        </a>
+                      </Link>
                     </div>
                   </li>
-
+                  <li>
+                    <div className="o-hidden">
+                      <Link href="/works2/works2-dark">
+                        <a className="link">
+                          <span className="nm">04.</span>Projects
+                        </a>
+                      </Link>
+                    </div>
+                  </li>
                   <li>
                     <div className="o-hidden">
                       <Link href="/contact/contact-dark">
@@ -250,18 +103,18 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="cont-info">
                 <div className="item">
                   <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <Link href={'tel:+8801751073892'}>+8801751073892</Link>
                 </div>
                 <div className="item">
                   <h6>Address :</h6>
                   <p>
-                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                    Sector-07, Uttara, Dhaka, Bangladesh
                   </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">Avo_website@gmail.com</a>
+                    <a href="mailto:rafiujjaman5683@gmail.com">rafiujjaman5683@gmail.com</a>
                   </p>
                 </div>
               </div>

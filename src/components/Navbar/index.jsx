@@ -58,6 +58,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Home</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/about/about-dark">
+                <a className="nav-link">About</a>
+              </Link>
+            </li>
 
               <li className="nav-item">
                 <Link href="/showcase2/showcase2-dark">
@@ -66,18 +71,13 @@ const Navbar = ({ lr, nr, theme }) => {
               </li>
 
             <li className="nav-item">
-              <Link href="/about/about-dark">
-                <a className="nav-link">About</a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link href="/showcase2/showcase2-dark">
-                <a className="nav-link">Showcases</a>
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link href="/works2/works2-dark">
                 <a className="nav-link">Projects</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/contact/contact-dark">
+                <a className="nav-link">Contact</a>
               </Link>
             </li>
           </ul>
