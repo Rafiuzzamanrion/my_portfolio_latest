@@ -40,7 +40,7 @@ const Footer = ({ noSubBG }) => {
                 </ul>
               </div>
               <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                <h6 className="custom-font stit simple-btn">Follow Me</h6>
                 <div className="social">
                   <a href="https://www.facebook.com/rafiuzzaman5683/"  target={'_blank'} className="icon" rel="noreferrer">
                     <i className="fab fa-facebook-f"></i>
@@ -109,7 +109,7 @@ const Footer = ({ noSubBG }) => {
         </div>
         <div className="copyrights text-center">
           <p>
-            © {new Date().getFullYear()}, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+            © {new Date().getFullYear()}, Made with passion by <a href="">Rafiuzzaman Rion</a>.
           </p>
         </div>
       </div>

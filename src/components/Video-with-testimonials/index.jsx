@@ -70,7 +70,7 @@ const VideoWithTestimonials = () => {
               <div className="testim-box">
                 <div className="head-box">
                   <h6 className="wow fadeIn" data-wow-delay=".5s">
-                    Our Happy Clients
+                    My Happy Clients
                   </h6>
                   <h4 className="wow fadeInLeft" data-wow-delay=".5s">
                     What Client&apos;s Say?
