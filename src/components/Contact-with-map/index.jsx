@@ -163,8 +163,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2022, Avo Template. Made with passion by 
-              <a href="#0">ThemesCamp</a>.
+              © {new Date().getFullYear()}, Made with passion by <a href="">Rafiuzzaman Rion</a>.
             </p>
           </div>
         </div>
