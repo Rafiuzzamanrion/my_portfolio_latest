@@ -24,9 +24,9 @@ const IntroTxt = ({subBG}) => {
                 <a href="https://www.instagram.com/rafiuzzaman_rion/" target={'_blank'} className="icon" rel="noreferrer">
                   <i className="fab fa-instagram"></i>
                 </a>
-                
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
+
+                <a href="https://www.github.com/Rafiuzzamanrion" target={'_blank'} className="icon" rel="noreferrer">
+                  <i className="fab fa-github"></i>
                 </a>
               </div>
             </div>

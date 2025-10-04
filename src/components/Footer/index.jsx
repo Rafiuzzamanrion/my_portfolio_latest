@@ -2,6 +2,7 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
+import Link from "next/link";
 
 const Footer = ({ noSubBG }) => {
   function validateEmail(value) {
@@ -28,31 +29,30 @@ const Footer = ({ noSubBG }) => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
+                    <span>Email : </span>  <a href="mailto:rafiujjaman5683@gmail.com">rafiujjaman5683@gmail.com</a>
                   </li>
                   <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
+                    <span>Address : </span> Sector-07, Uttara, Dhaka, Bangladesh.
                   </li>
                   <li>
-                    <span>Phone : </span> (+1) 2345 678 44 88
+                    <span>Phone : </span>  <Link href={'tel:+8801751073892'}>+8801751073892</Link>
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a href="https://www.facebook.com/rafiuzzaman5683/"  target={'_blank'} className="icon" rel="noreferrer">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
+                  <a href="https://www.linkedin.com/in/rafiuzzaman-rion-ba3575291/" target={'_blank'} className="icon" rel="noreferrer">
+                    <i className="fab fa-linkedin-in"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                  <a href="https://www.instagram.com/rafiuzzaman_rion/" target={'_blank'} className="icon" rel="noreferrer">
+                    <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                  <a href="https://www.github.com/Rafiuzzamanrion" target={'_blank'} className="icon" rel="noreferrer">
+                    <i className="fab fa-github"></i>
                   </a>
                 </div>
               </div>
