@@ -52,96 +52,32 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
+            <li className="nav-item">
+              <Link href="/home/home1-dark"
               >
-                Home
-              </span>
-              <div className="dropdown-menu">
-                <Link href="/home/home1-dark">
-                  <a className="dropdown-item">Main Home</a>
-                </Link>
-                <Link href="/home/home2-dark">
-                  <a className="dropdown-item">Creative Studio</a>
-                </Link>
-                <Link href="/home/home3-dark">
-                  <a className="dropdown-item">Business Startup</a>
-                </Link>
-                <Link href="/home/home4-dark">
-                  <a className="dropdown-item">One Page</a>
-                </Link>
-                <Link href="/home/home5-dark">
-                  <a className="dropdown-item">Freelancer</a>
-                </Link>
-              </div>
+                <a className="nav-link">Home</a>
+              </Link>
             </li>
 
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Showcases
-              </span>
-              <div className="dropdown-menu">
-                <Link href="/showcase/showcase-dark">
-                  <a className="dropdown-item">Full Screen</a>
-                </Link>
+              <li className="nav-item">
                 <Link href="/showcase2/showcase2-dark">
-                  <a className="dropdown-item">Creative Carousel</a>
+                  <a className="nav-link">Showcases</a>
                 </Link>
-                <Link href="/showcase3/showcase3-dark">
-                  <a className="dropdown-item">Radius Carousel</a>
-                </Link>
-                <Link href="/showcase4/showcase4-dark">
-                  <a className="dropdown-item">Columns Carousel</a>
-                </Link>
-                <Link href="/showcase5/showcase5-dark">
-                  <a className="dropdown-item">Boxed Carousel</a>
-                </Link>
-              </div>
-            </li>
+              </li>
+
             <li className="nav-item">
               <Link href="/about/about-dark">
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                portfolio
-              </span>
-              <div className="dropdown-menu">
-                <Link href="/works/works-dark">
-                  <a className="dropdown-item">Mouse Info</a>
-                </Link>
-                <Link href="/works2/works2-dark">
-                  <a className="dropdown-item">Masonry 3 Columns</a>
-                </Link>
-                <Link href="/works3/works3-dark">
-                  <a className="dropdown-item">Masonry 2 Columns</a>
-                </Link>
-                <Link href="/works4/works4-dark">
-                  <a className="dropdown-item">Pinterest List</a>
-                </Link>
-              </div>
+            <li className="nav-item">
+              <Link href="/showcase2/showcase2-dark">
+                <a className="nav-link">Showcases</a>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact/contact-dark">
-                <a className="nav-link">Contact</a>
+              <Link href="/works2/works2-dark">
+                <a className="nav-link">Projects</a>
               </Link>
             </li>
           </ul>
