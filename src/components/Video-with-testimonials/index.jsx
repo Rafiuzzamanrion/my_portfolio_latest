@@ -83,72 +83,63 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      “Working with Rafiuzzaman Rion was a fantastic experience. He delivered our web application ahead
+                      of schedule and exceeded our expectations in terms of design and functionality.”
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/1.jpg" alt="" />
+                          <img src="/img/clients/1.jpg" alt="Client 1"/>
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            Sarah Williams
                           </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <span className="author-details">Product Manager, TechNova </span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      “Rion’s expertise in full stack development helped us launch our startup platform quickly. He’s
+                      responsive, skilled, and communicates clearly throughout the project.”
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
+                          <img src="/img/clients/2.jpg" alt="Client 2"/>
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            Daniel Chen
                           </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <span className="author-details">Founder, Startify</span>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                      “The web solutions delivered by Rafiuzzaman were robust and scalable. His attention to detail and
+                      problem-solving abilities made all the difference for our business.”
                     </p>
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
+                          <img src="/img/clients/3.jpg" alt="Client 3"/>
                         </div>
                       </div>
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            Priya Singh
                           </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
+                          <span className="author-details">CTO, MarketLi</span>
                         </div>
                       </div>
                     </div>
