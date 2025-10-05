@@ -21,19 +21,19 @@ const Navbar = ({ lr, nr, theme }) => {
       }`}
     >
       <div className="container">
-        <Link href="/">
-          <a className="logo">
-            {theme ? (
-              theme === "themeL" ? (
-                <img ref={lr} src={`${appData.darkLogo}`} alt="logo" />
-              ) : (
-                <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
-              )
-            ) : (
-              <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />
-            )}
-          </a>
-        </Link>
+        {/*<Link href="/">*/}
+        {/*  <a className="logo">*/}
+        {/*    {theme ? (*/}
+        {/*      theme === "themeL" ? (*/}
+        {/*        <img ref={lr} src={`${appData.darkLogo}`} alt="logo" />*/}
+        {/*      ) : (*/}
+        {/*        <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />*/}
+        {/*      )*/}
+        {/*    ) : (*/}
+        {/*      <img ref={lr} src={`${appData.lightLogo}`} alt="logo" />*/}
+        {/*    )}*/}
+        {/*  </a>*/}
+        {/*</Link>*/}
 
         <button
           className="navbar-toggler"
