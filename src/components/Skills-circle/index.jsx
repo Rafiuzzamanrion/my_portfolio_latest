@@ -18,8 +18,8 @@ const SkillsCircle = ({ subBG, theme }) => {
 
   return (
     <section
-      style={{paddingBottom:'13rem'}}
-      className={`skills-circle pt-50 ${
+      style={{paddingBottom:'7rem'}}
+      className={`skills-circle pt-100 ${
         subBG ? "sub-bg" : ""
       }`}
     >
