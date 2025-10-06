@@ -13,6 +13,7 @@ import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import Works1Slider from "../../components/Works1-slider";
 import DarkTheme from "../../layouts/Dark";
 import IntroTxt from "../../components/Intro-txt";
+import Skills from "../../components/about-skills/skills";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -56,6 +57,7 @@ const Homepage1 = () => {
         <Works1Slider />
         <VideoWithTestimonials />
         <SkillsCircle theme="dark" subBG />
+        <Skills/>
         <Clients1 theme="dark" />
         {/*<BlogsTwoColumnSlider />*/}
         <CallToAction subBG />
