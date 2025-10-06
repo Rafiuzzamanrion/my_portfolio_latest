@@ -29,7 +29,7 @@ const Skills = () => {
     { name: 'Bootstrap', img: bs },
   ];
   return (
-    <section className="intro-section section-padding">
+    <section className="intro-section section-padding wow fadeInUp" data-wow-delay=".5s">
       <div className="container">
 <div>
   <Marquee
