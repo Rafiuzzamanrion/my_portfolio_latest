@@ -44,7 +44,7 @@ const Skills = () => {
           display: 'inline-block',
           margin: '0 40px',
           textAlign: 'center',
-          boxShadow: '0 0 16px 0 rgba(117, 218, 180, 0.4)',
+          boxShadow: '0 0 10px 0 rgba(117, 218, 180, 0.4)',
           padding: '10px',
           borderRadius: '8px',
           backgroundColor: "#11141b",
