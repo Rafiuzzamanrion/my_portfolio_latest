@@ -19,7 +19,7 @@ const MinimalArea = () => {
             <div className="img">
               <img
                 className="thumparallax-down"
-                src="/img/min-area.jpg"
+                src="/img/slid/image-2.jpg"
                 alt="About Rafiuzzaman Rion"
               />
             </div>

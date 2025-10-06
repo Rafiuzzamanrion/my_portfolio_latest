@@ -38,13 +38,13 @@ const Skills = () => {
     pauseOnHover={true}
     direction={"left"}
   >
-    <div>
+    <div className={'pt-2 pb-2'}>
       {skills.map((skill, index) => (
         <div key={index} style={{
           display: 'inline-block',
           margin: '0 40px',
           textAlign: 'center',
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+          boxShadow: '0 0 16px 0 rgba(117, 218, 180, 0.4)',
           padding: '10px',
           borderRadius: '8px',
           backgroundColor: "#11141b",
@@ -65,13 +65,13 @@ const Skills = () => {
     direction={"right"}
     className={'mt-50'}
   >
-    <div>
+    <div className={'pt-2 pb-2'}>
       {skills.map((skill, index) => (
         <div key={index} style={{
           display: 'inline-block',
           margin: '0 40px',
           textAlign: 'center',
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+          boxShadow: '0 0 10px 0 rgba(117, 218, 180, 0.4)',
           padding: '10px',
           borderRadius: '8px',
           backgroundColor: '#11141b',

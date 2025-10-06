@@ -11,6 +11,7 @@ import SkillsCircle from "../../components/Skills-circle";
 import Team1 from "../../components/Team1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
+import Skills from "../../components/about-skills/skills";
 
 const AboutDark = () => {
   const navbarRef = React.useRef(null);
@@ -38,6 +39,7 @@ const AboutDark = () => {
       <VideoWithTestimonials />
       <SkillsCircle subBG theme="dark" />
       {/*<Team1 />*/}
+      <Skills/>
       <MinimalArea />
       <Clients1 theme="dark" />
       <CallToAction subBG />
