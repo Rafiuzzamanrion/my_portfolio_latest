@@ -20,7 +20,7 @@ const MinimalArea = () => {
               <img
                 className="thumparallax-down"
                 src="/img/min-area.jpg"
-                alt=""
+                alt="About Rafiuzzaman Rion"
               />
             </div>
           </div>
@@ -31,39 +31,38 @@ const MinimalArea = () => {
                   className="wow custom-font words chars splitting"
                   data-splitting
                 >
-                  About us.
+                  About Me.
                 </h4>
               </Split>
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
+                  I am a Full Stack Web Developer with a passion for crafting innovative web applications and digital solutions. My expertise spans both frontend and backend development, delivering reliable, scalable, and user-friendly experiences for clients and businesses.
                 </p>
               </Split>
               <ul className="feat">
                 <li className="wow fadeInUp" data-wow-delay=".2s">
                   <h6>
-                    <span>1</span> Our Mission
+                    <span>1</span> My Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    To transform ideas into powerful digital products through clean code, modern technologies, and a commitment to excellence.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
                   <h6>
-                    <span>2</span> Our Goals
+                    <span>2</span> My Goals
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    To deliver high-quality, scalable web applications that solve real-world problems and help clients achieve their business objectives.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
                   <h6>
-                    <span>3</span> Why Us?
+                    <span>3</span> Why Choose Me?
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                    I combine technical expertise with a client-focused approach, ensuring every project is completed efficiently and exceeds expectations.
                   </p>
                 </li>
               </ul>
