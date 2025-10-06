@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "title": "Digital Marketing",
-        "icon": "pe-7s-gleam",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "title": "Full Stack Web Development",
+        "icon": "pe-7s-config",
+        "content": "Complete web applications using modern frameworks and technologies."
     },
     {
       "id": 2,
-      "title": "Web & App Development",
-      "icon": "pe-7s-phone",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "title": " Frontend Development",
+      "icon": "pe-7s-monitor",
+      "content": "Responsive, interactive user interfaces with Next.js, React, HTML5, CSS3, JavaScript and TypeScript."
     },
     {
       "id": 3,
-      "title": "Graphic Design",
-      "icon": "pe-7s-magic-wand",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "title": "Backend Development",
+      "icon": "pe-7s-server",
+      "content": "Robust server-side solutions, APIs, and database architecture."
     }
 ]
