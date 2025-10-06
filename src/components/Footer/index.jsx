@@ -22,8 +22,8 @@ const Footer = ({ noSubBG }) => {
           <div className="col-lg-5">
             <div className="cont">
               <div className="logo">
-                <a href="#0">
-                  <img src={`${appData.lightLogo}`} alt="" />
+                <a href="#">
+                  <img style={{width:'50px', height:'50px', objectFit:'cover'}} src={`/img/favicon.ico`} alt="" />
                 </a>
               </div>
               <div className="con-info custom-font">

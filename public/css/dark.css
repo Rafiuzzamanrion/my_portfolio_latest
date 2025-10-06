@@ -4775,8 +4775,9 @@ header.simpl {
     font-weight: 300;
     margin-bottom: 30px; }
   .footer-half .cont .logo {
-    width: 55px;
-    margin-bottom: 30px; }
+    width: 100px;
+      height: 100%;
+    margin-bottom: 0px; }
   .footer-half .cont .con-info li {
     margin-top: 10px;
     font-weight: 200; }
