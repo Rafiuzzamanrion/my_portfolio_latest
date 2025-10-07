@@ -44,7 +44,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                   <Link href={project.link}>
                     <a>
-                      <img src={project.image} alt="image" />
+                      <img style={{height:'350px', objectFit:'cover', objectPosition:'right'}} src={project.image} alt="image" />
                     </a>
                   </Link>
                 </div>
