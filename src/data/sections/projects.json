@@ -1,50 +1,99 @@
 [
   {
-    "title": "Creativity Demand",
-    "category": "portfolio",
+    "title": "My manager",
+    "category": "business",
     "marginClass": "lg-mr",
-    "image": "/img/portfolio/mas/01.jpg",
-    "link": "/project-details/project-details-dark",
-    "tags": ["Design", "WordPress"]
+    "image": "/img/portfolio/mas/mymanager.png",
+    "link": "https://mymanager.com/",
+    "tags": ["React.js", "Node.js"]
   },
   {
-    "title": "Through The Breaking",
-    "category": "landingpage",
-    "marginClass": "",
-    "image": "/img/portfolio/mas/02.jpg",
-    "link": "/project-details/project-details-dark",
-    "tags": ["Design", "WordPress"]
-  },
-  {
-    "title": "Create With Creatives",
+    "title": "RVG Portfolio",
     "category": "portfolio",
-    "marginClass": "lg-mr",
-    "image": "/img/portfolio/mas/03.jpg",
-    "link": "/project-details/project-details-dark",
-    "tags": ["Design", "WordPress"]
-  },
-  {
-    "title": "Blast From The Past",
-    "category": "landingpage",
     "marginClass": "",
-    "image": "/img/portfolio/mas/03.jpg",
-    "link": "/project-details/project-details-dark",
-    "tags": ["Design", "WordPress"]
+    "image": "/img/portfolio/mas/port-1.png",
+    "link": "https://rafiuzzamanrion.me/",
+    "tags": ["Next.js", "Bootstrap"]
   },
   {
-    "title": "See It Yourself",
+    "title": "Hit Solutions",
+    "category": "landingpage",
+    "marginClass": "lg-mr",
+    "image": "/img/portfolio/mas/hit.png",
+    "link": "https://www.hasansit.com/",
+    "tags": ["Next.js", "Tailwind CSS"]
+  },
+  {
+    "title": "Ads House",
     "category": "ecommerce",
     "marginClass": "",
-    "image": "/img/portfolio/mas/05.jpg",
-    "link": "/project-details/project-details-dark",
-    "tags": ["Design", "WordPress"]
+    "image": "/img/portfolio/mas/ads.png",
+    "link": "https://facebook-add-house.vercel.app/",
+    "tags": ["React.js", "Tailwind CSS"]
   },
   {
-    "title": "Energies of Love",
+    "title": "Hiji Busy",
+    "category": "landingpage",
+    "marginClass": "",
+    "image": "/img/portfolio/mas/hijibusy.png",
+    "link": "https://hiji-busy.vercel.app/",
+    "tags": ["Next.js", "DaisyUI"]
+  },
+  {
+    "title": "Meal Cage",
     "category": "ecommerce",
     "marginClass": "",
-    "image": "/img/portfolio/mas/04.jpg",
-    "link": "/project-details/project-details-dark",
-    "tags": ["Design", "WordPress"]
-  }
+    "image": "/img/portfolio/mas/meal-cage.png",
+    "link": "https://meal-cage-client.vercel.app/",
+    "tags": ["React.js", "Tailwind CSS"]
+  },
+    {
+        "title": "Wapi Cloud",
+        "category": "ecommerce",
+        "marginClass": "lg-mr",
+        "image": "/img/portfolio/mas/wapi.png",
+        "link": "https://whats-app-business-de8h.vercel.app/",
+        "tags": ["Next.js", "TypeScript"]
+    },
+    {
+        "title": "Portfolio",
+        "category": "portfolio",
+        "marginClass": "lg-mr",
+        "image": "/img/portfolio/mas/port-2.png",
+        "link": "https://my-portfolio-roan-gamma.vercel.app/",
+        "tags": ["React.js", "Tailwind CSS"]
+    },
+    {
+        "title": "Car Doctor",
+        "category": "service",
+        "marginClass": "lg-mr",
+        "image": "/img/portfolio/mas/car-doctor.png",
+        "link": "https://car-doctor-client-amber.vercel.app/",
+        "tags": ["React.js", "Tailwind CSS"]
+    },
+    {
+        "title": "Finder",
+        "category": "service",
+        "marginClass": "",
+        "image": "/img/portfolio/mas/finder.png",
+        "link": "https://missing-person-detection-application.vercel.app/",
+        "tags": ["React.js", "TypeScript"]
+    },
+  {
+        "title": "Task Manager",
+        "category": "service",
+        "marginClass": "",
+        "image": "/img/portfolio/mas/task.png",
+        "link": "https://task-pad-client.vercel.app/",
+        "tags": ["React.js", "DaisyUI"]
+    },
+  {
+        "title": "Amazon Clone",
+        "category": "ecommerce",
+        "marginClass": "",
+        "image": "/img/portfolio/mas/banner5.jpg",
+        "link": "https://amazon-client-eight.vercel.app//",
+        "tags": ["React.js", "Firebase"]
+    }
+
 ]
