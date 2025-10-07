@@ -35,6 +35,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <span data-filter=".landingpage">Landing Page</span>
               <span data-filter=".ecommerce">E-commerce</span>
               <span data-filter=".business">Business Management</span>
+              <span data-filter=".service">Service</span>
             </div>
           </div>
 
@@ -53,7 +54,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                   <span>
                     {project.tags.map((tag, tagIndex) => (
                       <React.Fragment key={tagIndex}>
-                        <a href="#0">{tag}</a>
+                        <a href={project.link}>{tag}</a>
                         {tagIndex < project.tags.length - 1 && ", "}
                       </React.Fragment>
                     ))}
