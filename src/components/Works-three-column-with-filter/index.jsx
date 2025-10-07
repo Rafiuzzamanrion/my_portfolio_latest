@@ -34,6 +34,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
               <span data-filter=".portfolio">Portfolio</span>
               <span data-filter=".landingpage">Landing Page</span>
               <span data-filter=".ecommerce">E-commerce</span>
+              <span data-filter=".business">Business Management</span>
             </div>
           </div>
 
