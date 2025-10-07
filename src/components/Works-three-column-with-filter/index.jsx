@@ -44,8 +44,8 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
             {portfolioData.map((project, index) => (
               <div key={index} className={`col-lg-4 col-md-6 items ${project.category}${project.marginClass ? ' ' + project.marginClass : ''}`}>
                 <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  <Link href={project.link} target="_blank" rel="noreferrer">
-                    <a>
+                  <Link href={project.link} target="_blank">
+                    <a href={project.link} target="_blank" rel="noreferrer">
                       <img style={{height:'350px', objectFit:'cover', objectPosition:'right'}} src={project.image} alt="image" />
                     </a>
                   </Link>
