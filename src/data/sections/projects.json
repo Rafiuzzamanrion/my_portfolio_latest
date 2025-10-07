@@ -94,6 +94,14 @@
         "image": "/img/portfolio/mas/banner5.jpg",
         "link": "https://amazon-client-eight.vercel.app//",
         "tags": ["React.js", "Firebase"]
+    },
+  {
+        "title": "Dragon News",
+        "category": "news",
+        "marginClass": "lg-mr",
+        "image": "/img/portfolio/mas/dragon.png",
+        "link": "https://the-news-dragon-client-topaz.vercel.app/category/0",
+        "tags": ["React.js", "Bootstrap"]
     }
 
 ]
