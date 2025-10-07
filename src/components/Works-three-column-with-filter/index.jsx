@@ -55,7 +55,7 @@ const WorksThreeColumnWithFilter = ({ filterPosition }) => {
                   <span>
                     {project.tags.map((tag, tagIndex) => (
                       <React.Fragment key={tagIndex}>
-                        <a href={project.link}>{tag}</a>
+                        <a href={project.link} target="_blank" rel="noreferrer">{tag}</a>
                         {tagIndex < project.tags.length - 1 && ", "}
                       </React.Fragment>
                     ))}
