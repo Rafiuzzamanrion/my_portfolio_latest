@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Creativity Demand",
+    "category": "portfolio",
+    "marginClass": "lg-mr",
+    "image": "/img/portfolio/mas/01.jpg",
+    "link": "/project-details/project-details-dark",
+    "tags": ["Design", "WordPress"]
+  },
+  {
+    "title": "Through The Breaking",
+    "category": "landingpage",
+    "marginClass": "",
+    "image": "/img/portfolio/mas/02.jpg",
+    "link": "/project-details/project-details-dark",
+    "tags": ["Design", "WordPress"]
+  },
+  {
+    "title": "Create With Creatives",
+    "category": "portfolio",
+    "marginClass": "lg-mr",
+    "image": "/img/portfolio/mas/03.jpg",
+    "link": "/project-details/project-details-dark",
+    "tags": ["Design", "WordPress"]
+  },
+  {
+    "title": "Blast From The Past",
+    "category": "landingpage",
+    "marginClass": "",
+    "image": "/img/portfolio/mas/03.jpg",
+    "link": "/project-details/project-details-dark",
+    "tags": ["Design", "WordPress"]
+  },
+  {
+    "title": "See It Yourself",
+    "category": "ecommerce",
+    "marginClass": "",
+    "image": "/img/portfolio/mas/05.jpg",
+    "link": "/project-details/project-details-dark",
+    "tags": ["Design", "WordPress"]
+  },
+  {
+    "title": "Energies of Love",
+    "category": "ecommerce",
+    "marginClass": "",
+    "image": "/img/portfolio/mas/04.jpg",
+    "link": "/project-details/project-details-dark",
+    "tags": ["Design", "WordPress"]
+  }
+]
