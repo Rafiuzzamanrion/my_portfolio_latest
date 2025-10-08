@@ -103,7 +103,7 @@ const ShowcasesOneCenter = () => {
                   <div className="copy-cap valign">
                     <div className="cap">
                       <h1>
-                        <Link href="/project-details2/project-details2-dark">
+                        <Link href={slide?.link}>
                           <a href={slide?.link} target={'_blank'} rel="noreferrer">
                             <div className="stroke">{slide.title.first}</div>
                             <span>{slide.title.second}</span>
