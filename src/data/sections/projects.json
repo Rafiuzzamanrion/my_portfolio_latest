@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Modern Portfolio",
     "category": "portfolio",
     "marginClass": "lg-mr",
@@ -8,6 +9,7 @@
     "tags": ["Next.js", "Bootstrap"]
   },
   {
+    "id": 2,
     "title": "My manager",
     "category": "business",
     "marginClass": "",
@@ -16,6 +18,7 @@
     "tags": ["React.js", "Node.js"]
   },
   {
+    "id": 3,
     "title": "Hit Solutions",
     "category": "landingpage",
     "marginClass": "lg-mr",
@@ -24,6 +27,7 @@
     "tags": ["Next.js", "Tailwind CSS"]
   },
   {
+    "id": 4,
     "title": "Missing Person detection (AI)",
     "category": "service",
     "marginClass": "",
@@ -32,6 +36,7 @@
     "tags": ["Next.js", "TypeScript"]
   },
   {
+    "id": 5,
     "title": "Hiji Busy",
     "category": "landingpage",
     "marginClass": "",
@@ -40,6 +45,7 @@
     "tags": ["Next.js", "DaisyUI"]
   },
   {
+    "id": 6,
     "title": "Meal Cage",
     "category": "ecommerce",
     "marginClass": "",
@@ -48,6 +54,7 @@
     "tags": ["React.js", "Tailwind CSS"]
   },
     {
+      "id": 7,
         "title": "Wapi Cloud",
         "category": "ecommerce",
         "marginClass": "lg-mr",
@@ -56,6 +63,7 @@
         "tags": ["Next.js", "TypeScript"]
     },
     {
+        "id": 8,
         "title": "Portfolio",
         "category": "portfolio",
         "marginClass": "lg-mr",
@@ -64,6 +72,7 @@
         "tags": ["React.js", "Tailwind CSS"]
     },
     {
+        "id": 9,
         "title": "Car Doctor",
         "category": "service",
         "marginClass": "lg-mr",
@@ -72,6 +81,7 @@
         "tags": ["React.js", "Tailwind CSS"]
     },
   {
+    "id": 10,
     "title": "Ads House",
     "category": "ecommerce",
     "marginClass": "",
@@ -80,6 +90,7 @@
     "tags": ["React.js", "Tailwind CSS"]
   },
   {
+        "id": 11,
         "title": "Task Manager",
         "category": "service",
         "marginClass": "",
@@ -88,6 +99,7 @@
         "tags": ["React.js", "DaisyUI"]
     },
   {
+        "id": 12,
         "title": "Amazon Clone",
         "category": "ecommerce",
         "marginClass": "",
@@ -96,6 +108,7 @@
         "tags": ["React.js", "Firebase"]
     },
   {
+        "id": 13,
         "title": "Dragon News",
         "category": "news",
         "marginClass": "lg-mr",
@@ -104,6 +117,7 @@
         "tags": ["React.js", "Bootstrap"]
     },
   {
+        "id": 14,
         "title": "Digi shop",
         "category": "service",
         "marginClass": "lg-mr",

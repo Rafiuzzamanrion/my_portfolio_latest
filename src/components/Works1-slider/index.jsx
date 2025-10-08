@@ -1,5 +1,5 @@
 import React from "react";
-import works1SliderData from "../../data/sections/works1Slider.json";
+import works1SliderData from "../../data/sections/projects.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
@@ -79,11 +79,11 @@ const Works1Slider = () => {
                       ></div>
                       <div className="cont">
                         <h6 className="color-font">
-                          <Link href="/works/works-dark">{slide.title}</Link>
+                          <Link href="/works/works-dark">{slide.category}</Link>
                         </h6>
                         <h4>
                           <Link href="/project-details2/project-details2-dark">
-                            {slide.secTex}
+                            {slide.title}
                           </Link>
                         </h4>
                       </div>
