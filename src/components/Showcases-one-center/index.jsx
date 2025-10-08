@@ -30,7 +30,9 @@ const ShowcasesOneCenter = () => {
             speed={1500}
             mousewheel={true}
             centeredSlides={true}
-            autoplay={true}
+            autoplay={
+              {disableOnInteraction: false}
+            }
             loop={true}
             spaceBetween={30}
             navigation={{
