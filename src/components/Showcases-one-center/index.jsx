@@ -27,7 +27,7 @@ const ShowcasesOneCenter = () => {
       <div id="content-carousel-container-unq-1" className="swiper-container">
         {!load ? (
           <Swiper
-            speed={1000}
+            speed={1500}
             mousewheel={true}
             centeredSlides={true}
             autoplay={true}
@@ -92,7 +92,7 @@ const ShowcasesOneCenter = () => {
                     <div className="o-hidden">
                       <h1>
                         <Link href="/project-details2/project-details2-dark">
-                          <a>
+                          <a href={slide?.link} target={'_blank'} rel="noreferrer">
                             <div className="stroke">{slide.title.first}</div>
                             <span>{slide.title.second}</span>
                           </a>
@@ -104,7 +104,7 @@ const ShowcasesOneCenter = () => {
                     <div className="cap">
                       <h1>
                         <Link href="/project-details2/project-details2-dark">
-                          <a>
+                          <a href={slide?.link} target={'_blank'} rel="noreferrer">
                             <div className="stroke">{slide.title.first}</div>
                             <span>{slide.title.second}</span>
                           </a>
