@@ -1472,7 +1472,7 @@ body {
       -webkit-animation-delay: calc(30ms * var(--char-index));
       animation-delay: calc(30ms * var(--char-index)); }
     .topnav .menu-icon .text {
-      font-size: 13px;
+      font-size: 16px;
       font-weight: 500;
       padding-left: 15px;
       display: table-cell;
@@ -1514,8 +1514,8 @@ body {
       display: table-cell; }
       .topnav .menu-icon .icon i {
         display: block;
-        width: 20px;
-        height: 3px;
+        width: 30px;
+        height: 4px;
         background: #fff;
         margin: 4px 0; }
   .topnav.dark .menu-icon {
@@ -5278,7 +5278,13 @@ header.simpl {
         display: flex;
         justify-content: center;
         gap: 10px}
-
+    .topnav .menu-icon .text {
+        font-size: 13px;
+    }
+    .topnav .menu-icon .icon i {
+        width: 20px;
+        height: 3px;
+    }
 
 
 
