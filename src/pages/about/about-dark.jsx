@@ -12,27 +12,13 @@ import Team1 from "../../components/Team1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 import Skills from "../../components/about-skills/skills";
+import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
 
 const AboutDark = () => {
-  const navbarRef = React.useRef(null);
-  React.useEffect(() => {
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [navbarRef]);
+
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} />
+      <NavbarFullMenu />
       <AboutHeader />
       <AboutIntro />
       <Services4 withPadding withOutTitle />
