@@ -14,40 +14,14 @@ import Works1Slider from "../../components/Works1-slider";
 import DarkTheme from "../../layouts/Dark";
 import IntroTxt from "../../components/Intro-txt";
 import Skills from "../../components/about-skills/skills";
+import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
 
 const Homepage1 = () => {
-  const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
-  const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
-
-  React.useEffect(() => {
-    setInterval(() => {
-      if (fixedSlider.current) {
-        var slidHeight = fixedSlider.current.offsetHeight;
-      }
-      if (MainContent.current) {
-        MainContent.current.style.marginTop = slidHeight + "px";
-      }
-    }, 1000);
-    var navbar = navbarRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        navbar.classList.add("nav-scroll");
-      } else {
-        navbar.classList.remove("nav-scroll");
-      }
-    });
-  }, [fixedSlider, MainContent, navbarRef]);
 
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      <NavbarFullMenu />
       <IntroTxt subBG />
       {/*<IntroWithSlider1 sliderRef={fixedSlider} />*/}
       <div ref={MainContent} className="main-content">
