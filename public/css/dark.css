@@ -4839,6 +4839,11 @@ header.simpl {
       .footer-half .copyrights p a {
         color: #75dab4; }
 
+.banner-img {
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
@@ -5285,7 +5290,10 @@ header.simpl {
         width: 20px;
         height: 3px;
     }
-
+    .banner-img {
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
 
 
      }

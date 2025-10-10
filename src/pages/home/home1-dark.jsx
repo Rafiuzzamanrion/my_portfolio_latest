@@ -23,7 +23,6 @@ const Homepage1 = () => {
     <DarkTheme>
       <NavbarFullMenu />
       <IntroTxt subBG />
-      {/*<IntroWithSlider1 sliderRef={fixedSlider} />*/}
       <div ref={MainContent} className="main-content">
         <AboutUs1 />
         <Services1 />

@@ -34,7 +34,7 @@ const IntroTxt = ({subBG}) => {
           <div
             // style={{backgroundImage: "url(/img/slid/imageM.jpg)"}}
             className={'col-lg-5 ml-auto'}>
-            <img style={{borderTopLeftRadius: '200px', borderBottomRightRadius: '200px'}} className={'w-100 h-100'} src="/img/slid/imageM.jpg" alt=""/>
+            <img className={'banner-img w-100 h-100'} src="/img/slid/imageM.jpg" alt=""/>
           </div>
         </div>
 
