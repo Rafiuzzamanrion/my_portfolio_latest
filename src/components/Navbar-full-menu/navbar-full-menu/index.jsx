@@ -71,7 +71,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
                   <li>
                     <div className="o-hidden">
-                      <Link href="/works2/works2-dark">
+                      <Link href="/showcase2/showcase2-dark/">
                         <a className="link">
                           <span className="nm">03.</span>Showcases
                         </a>
