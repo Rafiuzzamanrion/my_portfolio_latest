@@ -152,7 +152,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
       </section>
       <div className="map" id="ieatmaps">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19868.687203718404!2d-0.14297520856388865!3d51.502466162777694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2seg!4v1644772966009!5m2!1sen!2seg"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.564791984396!2d90.39484431543403!3d23.87505998453063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c5d05e7074dd%3A0x8c3b3f3b02c8c5a5!2sSector%207%2C%20Uttara%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1644772966009!5m2!1sen!2sbd"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
