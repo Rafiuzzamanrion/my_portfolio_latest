@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import SmallFooter from "../../components/Small-footer";
 import WorksThreeColumnWithFilter from "../../components/Works-three-column-with-filter";
 import addParlx from "../../common/addParlx";
+import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
 
 const Works2Dark = () => {
   const fixedHeader = React.useRef(null);
@@ -33,30 +34,10 @@ const Works2Dark = () => {
     }
   }, [pageLoaded]);
 
-  React.useEffect(() => {
-    const navbar = navbarRef.current;
-
-    const handleScroll = () => {
-      if (window.pageYOffset > 300) {
-        navbar?.classList.add("nav-scroll");
-      } else {
-        navbar?.classList.remove("nav-scroll");
-      }
-    };
-
-    // Set initial scroll state
-    handleScroll();
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} />
+      <NavbarFullMenu />
       <header
         ref={fixedHeader}
         className="works-header fixed-slider hfixd valign"
