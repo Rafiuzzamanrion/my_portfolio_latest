@@ -79,10 +79,10 @@ const Works1Slider = () => {
                       ></div>
                       <div className="cont">
                         <h6 className="color-font">
-                          <Link href="/works/works-dark">{slide.category}</Link>
+                          <Link href={slide.link}>{slide.category}</Link>
                         </h6>
                         <h4>
-                          <Link href="/project-details2/project-details2-dark">
+                          <Link href={slide.link}>
                             {slide.title}
                           </Link>
                         </h4>
