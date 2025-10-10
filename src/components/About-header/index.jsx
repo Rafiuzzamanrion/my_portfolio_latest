@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const AboutHeader = () => {
   return (
@@ -13,11 +14,11 @@ const AboutHeader = () => {
             <div className="cont text-center">
               <h1>About Me</h1>
               <div className="path">
-                <a href="#0">Home</a>
+                <Link href="/home/home1-dark">Home</Link>
                 <span>/</span>
-                <a href="#0" className="active">
+                <Link href="/about/about-dark" className="active">
                   About Me
-                </a>
+                </Link>
               </div>
             </div>
           </div>
