@@ -11,11 +11,13 @@ import html from '/public/img/slid/html.png';
 import css from '/public/img/slid/css.png';
 import tailwind from '/public/img/slid/tailwind.png';
 import bs from '/public/img/slid/bs.png';
+import ts from '/public/img/slid/ts.png.png';
 import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   let skills = [
     { name: 'JavaScript', img: js },
+    { name: 'TypeScript', img: ts },
     { name: 'React', img: react },
     { name: 'Next.js', img: nextjs },
     { name: 'Node.js', img: nodejs },
